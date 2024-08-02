@@ -1,83 +1,201 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>M~M~S</title>
 
+    <!-- Link Css -->
+    <link rel="stylesheet" href="/Asstes/sass/main.css" />
     <!-- Bootstrap CDN -->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-
-</head>
-<body>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+  </head>
+  <body>
     <!-- ========== Start NavBar ========== -->
-    <nav class="navbar navbar-expand-lg bg-body-tertiary">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">Navbar</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div class="navbar-nav ">
-                
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-              <a class="nav-link" href="#">Features</a>
-              <a class="nav-link" href="#">Pricing</a>
-              <a class="nav-link disabled" aria-disabled="true">Disabled</a>
+    <nav class="navbar navbar-expand-lg Tnav">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"
+          ><span class="WhiteText">Navbar</span></a
+        >
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNavAltMarkup"
+          aria-controls="navbarNavAltMarkup"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+          <div class="navbar-nav ms-auto">
+            <a class="nav-link" aria-current="page" href="#"
+              ><span class="WhiteText">Home</span></a
+            >
+            <a class="nav-link" href="#"
+              ><span class="WhiteText">Features</span></a
+            >
+            <a class="nav-link disabled" aria-disabled="true"
+              ><span class="WhiteText">Disabled</span></a
+            >
+            <a class="nav-link" href="#"
+              ><span class="WhiteText">Pricing</span></a
+            >
+          </div>
+        </div>
+      </div>
+    </nav>
+    <!-- ========== End NavBar ========== -->
+
+    <!-- Sized Box  -->
+    <div class="container-fluid Tnav"><br /><br /><br /></div>
+
+    <!-- ========== Start Hero Section ========== -->
+    <div class="container-fluid Tnav Ttitle">
+      <div class="row pt-3-md-6 align-items-center">
+        <div class="col-md-6">
+          <div class="mx-3">
+            <h2 class="h1">
+              Find the perfect auto parts<br />
+              for your vehicle
+            </h2>
+            <p>
+              Browse our extensive collection of high-quality car spare parts
+              and accessories.
+            </p>
+            <p><a class="btn btn-light" href="#">View details »</a></p>
+          </div>
+        </div>
+        <div class="col-md-6 text-center">
+          <img
+            alt="Bootstrap Image Preview"
+            width="400"
+            height="200"
+            src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg"
+            class="img-fluid rounded"
+          />
+        </div>
+      </div>
+    </div>
+    <!-- ========== End Hero Section ========== -->
+
+    <!-- Sized Box  -->
+    <div class="container-fluid Tnav"><br /><br /><br /></div>
+    <!-- ========== Start Product ========== -->
+    <div class="container">
+      <h3 class="text-center mt-4 Atitle">Our Products</h3>
+      <p class="Adesc text-center">Browse our wide selection of auto parts and accessories.
+
+      </p>
+      <div class="row">
+        <!-- Cart  -->
+        <div class="col-md-3 col-sm-6 mb-4">
+          <div class="card h-100">
+            <img
+              src="https://via.placeholder.com/150"
+              class="card-img-top"
+              alt="Product Image"
+            />
+            <div class="card-body">
+              <!-- Product name -->
+              <h5 class="card-title card-text-product-name">Brake Pads</h5>
+              <!-- Short description -->
+              <p class="card-text card-text-product-desc">High-performance brake pads</p>
+              <!-- Price text and Add to cart button in a row -->
+              <div class="row">
+                <div class="col-6">
+                  <p class="price-text"><strong>$50.00</strong></p>
+                </div>
+                <div class="col-6 text-end">
+                  <a href="#" class="btn btn-dark"
+                    ><span class="WhiteText">Add To Cart</span></a
+                  >
+                </div>
+              </div>
             </div>
           </div>
         </div>
-      </nav>
 
-    <!-- ========== End NavBar ========== -->
-  
-    <!-- ========== Start Hero Section ========== -->
-    <div class="container-fluid">
-        <div class="row">
-            <div class="col-md-6">
-                <h2 class="">
-                    Find the perfect auto parts for your vehicle
-                </h2>
-                <p>
-                    Browse our extensive collection of high-quality car spare parts and accessories.  </p>
-                <p>
-                    <a class="btn" href="#">View details »</a>
-                </p>
-            </div>
-            <div class="col-md-6">
-                <img alt="Bootstrap Image Preview" width="600"
-                height="400" src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg" class="rounded" />
-            </div>
+        <div class="col-md-3">
+          <!-- Product content here -->
         </div>
+        <div class="col-md-3">
+          <!-- Product content here -->
+        </div>
+        <div class="col-md-3">
+          <!-- Product content here -->
+        </div>
+      </div>
+    </div>
+    <!-- ========== End Product Section ========== -->
+
+    <div class="container-fluid Abg"><br /></div>
+    <!-- ========== Start About Sction ========== -->
+    <div class="container-fluid Abg Ttitle">
+      <div class="row pt-3-md-6 align-items-center">
+        <div class="col-md-6 text-center">
+          <img
+            alt="Bootstrap Image Preview"
+            width="400"
+            height="200"
+            src="https://www.layoutit.com/img/sports-q-c-140-140-3.jpg"
+            class="img-fluid rounded"
+          />
+        </div>
+        <div class="col-md-6">
+          <div class="mx-3 my-3">
+            <h2 class="h1 atitle">
+              <span class="Atitle"
+                >About Our Company
+                </span
+              >
+            </h2>
+            <p>
+              <span class="Adesc"
+                >At Auto Parts, we are dedicated to providing high-quality car
+                spare parts and accessories to our customers. With years of
+                industry experience, we have built a reputation for reliability,
+                customer service, and competitive pricing.
+                <br />
+                Our team of experts carefully selects and sources the best
+                products from leading manufacturers, ensuring that our customers
+                receive the parts they need to keep their vehicles running
+                smoothly.</span
+              >
+            </p>
+            <p><a class="btn btn-dark" href="#">View details </a></p>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <!-- ========== End Hero Section ========== -->
+    <!-- ========== End About Sction ========== -->
+    <div class="container-fluid Abg"><br /></div>
 
-     <!-- ========== Start Product ========== -->
-     <div class="container-fluid">
-	<div class="row">
-		<div class="col-md-12">
-			<h3 class="text-center">
-				Our Products
-			</h3>
-			<div class="row">
-				<div class="col-md-3">
-				</div>
-				<div class="col-md-3">
-				</div>
-				<div class="col-md-3">
-				</div>
-				<div class="col-md-3">
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-     <!-- ========== End Section ========== -->
-     
-    
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
-</body>
+    <!-- ========== Start Contact Us  ========== -->
+    <div class="container-fluid py-6">
+      <div class="position-relative">
+        <div class="position-absolute top-50 start-50 translate-middle">
+          <h2>Contact Us  </h2>
+          <p>Have a question or need assistance? Get in touch with our friendly team.</p>
+       <!-- Form -->
+
+        </div>
+      </div>
+    </div>
+
+    <!-- ========== End Contact Us  ========== -->
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
 </html>
