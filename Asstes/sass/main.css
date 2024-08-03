@@ -66,4 +66,48 @@
 }
 .add-to-cart-btn:hover {
   background-color: #cc3700;
+}
+
+.form-label-text {
+  font-family: inter;
+  font-size: 15px;
+}
+
+.footer-card {
+  background-color: #d9d9d9;
+}
+
+.footer-text-title {
+  font-family: inter;
+  font-size: 15px;
+  color: #354965;
+}
+
+.footer-text {
+  font-family: inter;
+  font-size: 12px;
+  text-decoration: none;
+  color: #354965;
+}
+
+.table-head {
+  background-color: #d9d9d9;
+}
+
+.small-text {
+  font-family: inter;
+  font-size: 13px;
+}
+
+.search-bar-input {
+  width: 350px;
+  height: 50px;
+  font-family: inter;
+  border-radius: 50px;
+}
+
+.search-bar-text {
+  width: 30;
+  height: 50;
+  font-family: inter;
 }/*# sourceMappingURL=main.css.map */
