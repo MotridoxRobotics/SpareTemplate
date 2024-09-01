@@ -1,4 +1,3 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 
 
@@ -9,18 +8,19 @@ $fontcolor: #f8fafc;
 $btncolor: #ff4500; // Custom button background color
 $aboutcolor: #e4e5e7;
 $secondarycolor: #354965;
-$footercolor:#d9d9d9;
+$footercolor: #d9d9d9;
 
-$inter:inter;
+$inter: inter;
 // Sizes
 $T25: 25px;
+
 // Background Sctions
 .Tnav {
   background-color: $bgcolor;
 }
 
-.Abg{
-    background-color: $aboutcolor;
+.Abg {
+  background-color: $aboutcolor;
 }
 
 // Font Style
@@ -29,14 +29,16 @@ $T25: 25px;
   color: $fontcolor;
   font-family: $inter;
 }
-.Atitle{
-    color: $bgcolor;
-    font-family: $inter;
+
+.Atitle {
+  color: $bgcolor;
+  font-family: $inter;
 }
-.Adesc{
-    color: $secondarycolor;
-    font-size: 18px;
-    font-family: $inter;
+
+.Adesc {
+  color: $secondarycolor;
+  font-size: 18px;
+  font-family: $inter;
 
 }
 
@@ -57,12 +59,15 @@ $T25: 25px;
   height: 100%; // Ensure cards take full height in their grid
   border-radius: 0; // Remove border radius
 }
-.card-text-product-name{
-    font-family: $inter;
+
+.card-text-product-name {
+  font-family: $inter;
 }
-.card-text-product-desc{
-    font-family: $inter;
+
+.card-text-product-desc {
+  font-family: $inter;
 }
+
 .card-img-top {
   object-fit: cover;
   height: 15rem; // Fixed height for the images to make the cards square
@@ -79,52 +84,126 @@ $T25: 25px;
   background-color: $btncolor;
   font-family: $inter;
   color: $fontcolor;
+
   &:hover {
     background-color: darken($btncolor, 10%);
   }
 }
+
 //Form Styles
-.form-label-text{
+.form-label-text {
   font-family: $inter;
   font-size: 15px;
-  
-  
+
+
 }
+
 // Footer styles
 
-.footer-card{
-  background-color:$footercolor ;
+.footer-card {
+  background-color: $footercolor ;
 }
-.footer-text-title{
+
+.footer-text-title {
   font-family: $inter;
   font-size: 15px;
   color: $secondarycolor;
 
 }
-.footer-text{
+
+.footer-text {
   font-family: $inter;
   font-size: 12px;
   text-decoration: none;
   color: $secondarycolor;
 }
+
 //Table Styles
-.table-head{
-  background-color:$footercolor;
+.table-head {
+  background-color: $footercolor;
 }
-.small-text{
+
+.small-text {
   font-family: $inter;
   font-size: 13px;
 }
+
 //Search
-.search-bar-input{
+.search-bar-input {
   width: 350px;
   height: 50px;
   font-family: $inter;
   border-radius: 50px;
 
 }
-.search-bar-text{
+
+.search-bar-text {
   width: 30;
   height: 50;
   font-family: $inter;
+}
+
+// Product Page 
+.product-page-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 5px;
+  
+}
+@media screen and (min-width :450px) {
+
+  .product-page-image {
+  width: 600px;
+  height: 400px;
+  border-radius: 10px;
+  position: absolute;
+}
+}
+
+.product-page-title {
+  font-size: 25px;
+  color: #0f172a;
+  font-family: $inter;
+  font-weight: bold;
+}
+
+.product-page-description {
+  @extend .product-page-title;
+  font-weight: normal;
+  font-size: 16px;
+}
+.product-page-specification-title{
+  @extend .product-page-specification-option;
+  font-size: 20px;
+}
+.product-page-specification-option {
+  @extend .product-page-description;
+  font-weight: 600;
+}
+.product-page-price{
+  font-family: $inter;
+  font-weight: bolder;
+  font-size: 22px;
+}
+.product-page-cart-button{
+  width: 150px;
+  height: 45px;
+  font-family: $inter;
+  background-color: $bgcolor;
+  color: $fontcolor;
+  border-radius: 7px;
+}
+// Utiiles
+@media screen and (min-width:450px) {
+  .margin-uti{
+    padding: 20px 50px ;
+    }
+  
+}
+
+@media screen and (min-width:450px) {
+  .space-uti{
+    padding: 20px 50px ;
+    }
+  
 }
