@@ -193,6 +193,14 @@ $T25: 25px;
   color: $fontcolor;
   border-radius: 7px;
 }
+
+// navigation
+.nav-title{
+  font-family: $inter;
+  font-weight: bold;
+  font-size: 75px;
+
+}
 // Utiiles
 @media screen and (min-width:450px) {
   .margin-uti{
