@@ -1,30 +1,57 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>SPARE</title>
 
     <!-- ASSETS LINKS  -->
-    <link rel="stylesheet" href="assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/style.css" />
     <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
-</head>
-<body>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap" rel="stylesheet">
+  </head>
+  <body>
+   <!-- Top alert/navigation bar section -->
+<div class="section-nav-alert">
+  <div class="h-10 bg-sky-950 flex justify-between items-center flex-wrap gap-4 px-4 text-green-500 text-xs">
     
-    <div class="h-10 bg-sky-950 flex items-center flex-wrap gap-3 px-4 text-green-500 text-xs">
-        <div class="flex items-center gap-1">
-          <img src="/assets/svg/navigation/phone.svg" alt="Phone" class="h-4 w-4 text-sky-300">
-          <p>+91 68*******45</p>
-        </div>
-        <span class="text-green-300/50 hidden sm:inline">|</span>
-        <div class="flex items-center gap-1">
-          <img src="/assets/svg/navigation/envelope.svg" alt="Email" class="h-4 w-4 text-sky-300">
-          <p>Modn@gmail.com</p>
-        </div>
+    <!-- Left side: Contact information -->
+    <div class="flex items-center gap-3 flex-wrap">
+      <!-- Phone info -->
+      <div class="flex items-center gap-1">
+        <img src="/assets/svg/navigation/phone.svg" alt="Phone" class="h-4 w-4 text-sky-300" />
+        <p>+91 68*******45</p>
       </div>
-      
-      
-      
-      
-</body>
+
+      <!-- Divider -->
+      <span class="text-green-300/50 hidden sm:inline">|</span>
+
+      <!-- Email info -->
+      <div class="flex items-center gap-1">
+        <img src="/assets/svg/navigation/envelope.svg" alt="Email" class="h-4 w-4 text-sky-300" />
+        <p>Modn@gmail.com</p>
+      </div>
+    </div>
+
+    <!-- Right side: User actions -->
+    <div class="flex items-center gap-4 flex-wrap text-green-500">
+      <!-- Track product -->
+      <div class="flex items-center gap-1">
+        <img src="/assets/svg/navigation/truck.svg" alt="Track" class="h-4 w-4 text-sky-300" />
+        <p>Track Your Product</p>
+      </div>
+
+      <!-- Login -->
+      <div class="flex items-center gap-1">
+        <img src="/assets/svg/navigation/user.svg" alt="Login" class="h-4 w-4 text-sky-300" />
+        <p>Login</p>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+  </body>
 </html>
